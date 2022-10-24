@@ -9,21 +9,21 @@
   }
 
   .bannerBtn {
-    background-image: url('../../../images/banner/lm-icon-close.png');
+    background-image: url('../images/banner/lm-icon-close.png');
   }
 }
 
 @media (prefers-color-scheme: dark) {
   .banner {
-    background-color: #019ec3;
+    background-color: #1f9ec3;
   }
 
   .banner p, .banner a {
-    color: #fff !important;
+    color: #FFFFFF !important;
   }
 
   .bannerBtn {
-    background-image: url('../../../images/banner/lm-icon-close.png');
+    background-image: url('../images/banner/lm-icon-close.png');
   }
 }
 
