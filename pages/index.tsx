@@ -3,7 +3,7 @@ import grid from '@/styles/grid.module.css';
 import heading from '@/styles/headings.module.css';
 import list from '@/styles/List.module.css';
 import Link from 'next/link'
-import Card from '@/components/Card'
+import Card from '@/components/Card';
 
 
 export default function Home() {
