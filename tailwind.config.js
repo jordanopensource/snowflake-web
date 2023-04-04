@@ -23,8 +23,8 @@ module.exports = {
       },
 
       screens: {
-        'midway': '768',
-      
+        'midway': '768px',
+
       },
     },
   },
