@@ -1,0 +1,26 @@
+/* for making grids in containers */
+.gridTwelve{
+    @apply grid grid-cols-1 lg:grid-cols-12;
+    @apply m-7 sm:m-7 md:m-20 md:mt-5;
+}
+.gridTwelve_Dark{
+    @apply grid grid-cols-1 lg:grid-cols-12;
+    @apply m-7 sm:m-7 md:m-20 md:mt-5;
+    @apply bg-darkPurple
+}
+
+.gridThree{
+    @apply grid grid-cols-3;
+}
+
+/* for fitting children in grids */
+.grid-13-10{
+    @apply col-start-13 col-end-10;
+}
+
+.grid-1-2{
+    @apply col-start-1 col-end-2;
+}
+.grid-2-3{
+    @apply col-start-2 col-end-3;
+}
