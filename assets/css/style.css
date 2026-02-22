@@ -11,14 +11,11 @@
   h2 {
     color: #1f9ec3 !important;
   }
-
-  .primaryBtn {
-    background-color: #1f9ec3 !important;
-    color: #59316B !important;
+  p {
+    color: var(--color-dark) !important;
   }
 
   .btn {
-    border: 2px solid #1f9ec3;
     color: #1f9ec3;
     background: none;
   }
@@ -43,11 +40,6 @@
     color: #FFFFFF !important;
   }
 
-  .primaryBtn {
-    background-color: #1f9ec3;
-    color: #59316B !important;
-  }
-
   iframe {
     background-color: #59316B !important;
   }
@@ -57,16 +49,19 @@
 body {
 }
 
-p, a, h1 {
-  color: white !important;
+p, a, h1, h2 {
   font-family: "IBM Sans";
 }
 
 h2 {
-  font-family: "IBM Sans";
-  font-weight: inherit;
+  font-weight: 700;
   font-size: calc(var(--font-size-1) * 1.0125);
   margin-bottom: var(--spacing-small);
+}
+
+.primaryBtn {
+  background-color: #1f9ec3 !important;
+  color: var(--color-light) !important;
 }
 
 .intro {
